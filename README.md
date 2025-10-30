@@ -18,9 +18,9 @@ An 8-bit reduced instruction set computer complete with 16 instructions. This is
 15. Out
 16. Jump
 # Files
-AJCRISC_CU
-  Control unit for RISC. Described behaviorally with case statement, determines which control signals are needed based on the current machine cycle.
-AJCRISC_DP
-  Data path for RISC. Described structurally using modules designed in previous labs. Also included a RAM and ROM, created using Quartus' megafunction wizard. Manipulates data based on signals passed from the CU.
-AJCRISC_HSMIOP
-  .mif file that initialized the ROM. Includes the instructions to be executed.
+AJCRISC_CU:    
+&emsp;Control unit for RISC. Described behaviorally with case statement, determines which control signals are needed based on the current machine &emsp;cycle.  
+AJCRISC_DP:    
+&emsp;Data path for RISC. Described structurally using modules designed in previous labs. Also included a RAM and ROM, created using Quartus'  &emsp;megafunction wizard. Manipulates data based on signals passed from the CU.  
+AJCRISC_HSMIOP:    
+&emsp;.mif file that initialized the ROM. Includes the instructions to be executed.
